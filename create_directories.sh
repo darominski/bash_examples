@@ -9,7 +9,6 @@ do
     directory=$path"/directory_"$i
     if [ ! -d $directory ]
     then
-	echo "we should be here"
 	mkdir -p $directory
 	n_created=$(( n_created+1 ))
     fi
